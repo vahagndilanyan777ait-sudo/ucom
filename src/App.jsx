@@ -2,16 +2,19 @@ import Header from './components/header'
 import ImgSlider from './components/imgSlide'
 import Section1 from './components/section1'
 import Patet from './components/patet'
+import Beewhithucom from './components/beewhithucom'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <Header/>
-      <ImgSlider/>
-      <Section1/>
-      <Patet/>
+      <Header />
+      <ImgSlider />
+      <Section1 />
+      <Patet />
+      <Beewhithucom/>
+
     </>
   )
 }
