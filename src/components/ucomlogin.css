@@ -1,8 +1,13 @@
 .page {
 border-radius: 8px;
 border: 1px solid #ddd;
+display:  flex;
 }
 
+.container{
+    display: flex;
+    gap: 20px;
+}
 
 .pay-btn {
 margin-top: 16px;
