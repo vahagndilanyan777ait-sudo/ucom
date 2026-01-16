@@ -6,6 +6,7 @@ import Beewhithucom from './components/beewhithucom'
 import InfoCard from './components/infocard'
 import MobileIdBanner from './components/mobileidbanner'
 import UcomLogin from './components/ucomlogin'
+import ServiceCards from './components/servisecard'
 import './App.css'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <InfoCard/>
       <MobileIdBanner/>
       <UcomLogin/>
+      <ServiceCards/>
     </>
   )
 }

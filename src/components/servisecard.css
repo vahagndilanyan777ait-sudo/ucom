@@ -1,0 +1,66 @@
+.services {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 24px;
+}
+
+
+.service-card {
+position: relative;
+background: #fff;
+border-radius: 20px;
+padding: 32px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+overflow: hidden;
+cursor: pointer;
+}
+
+
+.service-text h2 {
+font-size: 28px;
+margin-bottom: 8px;
+}
+
+
+.service-text p {
+color: #6b7280;
+max-width: 260px;
+}
+
+
+.arrow {
+font-size: 32px;
+margin-left: auto;
+margin-right: 16px;
+}
+
+
+.service-image {
+position: absolute;
+right: 0;
+bottom: 0;
+width: 180px;
+height: 120px;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+
+.service-image.home {
+background-image: url("https://www.ucom.am/storage/files/unity5000-uplay-335x_-quality(75)-webp(80).png?token=06e2232b1afd4d5a58378de3752dd18e");
+}
+
+
+.service-image.mobile {
+background-image: url("https://www.ucom.am/storage/files/anhatneri-hamar-335x_-quality(75)-webp(80).png?token=a7c06cc390ea15ea36bc04f8eea8f0c0");
+}
+
+
+@media (max-width: 768px) {
+.services {
+grid-template-columns: 1fr;
+}
+}
