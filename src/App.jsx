@@ -5,6 +5,7 @@ import Patet from './components/patet'
 import Beewhithucom from './components/beewhithucom'
 import InfoCard from './components/infocard'
 import MobileIdBanner from './components/mobileidbanner'
+import UcomLogin from './components/ucomlogin'
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Beewhithucom />
       <InfoCard/>
       <MobileIdBanner/>
+      <UcomLogin/>
     </>
   )
 }
