@@ -3,6 +3,7 @@ import ImgSlider from './components/imgSlide'
 import Section1 from './components/section1'
 import Patet from './components/patet'
 import Beewhithucom from './components/beewhithucom'
+import InfoCard from './components/infocard'
 import './App.css'
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
       <ImgSlider />
       <Section1 />
       <Patet />
-      <Beewhithucom/>
-
+      <Beewhithucom />
+      <InfoCard/>
     </>
   )
 }
