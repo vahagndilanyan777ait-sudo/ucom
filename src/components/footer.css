@@ -1,0 +1,159 @@
+
+.footer {
+  background: #f5f6f7;
+  padding: 48px 0 24px;
+  font-size: 14px;
+  color: #222;
+}
+
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr 1.6fr;
+  gap: 32px;
+}
+
+.footer-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.footer-col h4,
+.footer-card h4 {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col li {
+  margin-bottom: 8px;
+  color: #444;
+  cursor: pointer;
+}
+
+.phone {
+  font-weight: 700;
+  margin: 8px 0;
+}
+
+.desc {
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.email {
+  margin-bottom: 6px;
+}
+
+.location-btn {
+  margin-top: 12px;
+  background: none;
+  border: none;
+  color: #2fb344;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.app-head {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: #2fb344;
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.qr {
+  width: 72px;
+  height: 72px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.stores button {
+  display: block;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+}
+
+.socials {
+  margin-top: 16px;
+  display: flex;
+  gap: 12px;
+}
+
+.socials span {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #666;
+}
+
+.dev {
+  white-space: nowrap;
+}
+
+@media (max-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+}

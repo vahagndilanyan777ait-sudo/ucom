@@ -8,6 +8,7 @@ import MobileIdBanner from './components/mobileidbanner'
 import UcomLogin from './components/ucomlogin'
 import ServiceCards from './components/servisecard'
 import NewsSection from './components/newssection'
+import Footer from './components/footer'
 import './App.css'
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
       <UcomLogin/>
       <ServiceCards/>
       <NewsSection/>
+      <Footer/>
+
     </>
   )
 }
