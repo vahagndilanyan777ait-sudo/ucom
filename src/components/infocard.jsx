@@ -1,5 +1,5 @@
 
-import "./InfoCard.css";
+import "./infocard.css";
 import { FaUser, FaFileAlt, FaInfoCircle } from "react-icons/fa";
 
 export default function InfoCard() {
