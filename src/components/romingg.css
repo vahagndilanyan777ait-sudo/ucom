@@ -1,0 +1,106 @@
+
+.roaming {
+  padding: 48px 24px;
+  background: #f6f7f8;
+  border-radius: 32px;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+.card {
+  max-width: 760px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.tabs {
+  display: flex;
+  gap: 24px;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 24px;
+}
+
+.tab {
+  background: none;
+  border: none;
+  font-size: 16px;
+  padding-bottom: 12px;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.tab.active {
+  color: #111;
+  border-bottom: 3px solid #7ddc00;
+  font-weight: 600;
+}
+
+.form {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.field {
+  flex: 1;
+  width: 90%;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+select {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+.search-btn {
+    width: 20%;
+  background: #7ddc00;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.popular {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.countries {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  padding: 10px 14px;
+  border-radius: 999px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  font-size: 14px;
+}
+
+.flag {
+  font-size: 18px;
+}

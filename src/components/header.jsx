@@ -5,8 +5,8 @@ export default function Header() {
     <header className="ucom-header">
       <div className="top-bar">
         <div className="top-left">
-          <a href="#">Անհատներ</a>
-          <a href="#">Բիզնես</a>
+          <a href="/">Անհատներ</a>
+          <a href="/business">Բիզնես</a>
         </div>
 
         <div className="top-right">
@@ -17,14 +17,14 @@ export default function Header() {
       </div>
 
       <div className="main-bar">
-        <div className="logo">
+        <a href="/" className="logoH">
           <img src="https://www.ucom.am/images/main_logo.svg" alt="Ucom" />
-        </div>
+        </a>
 
         <nav className="nav">
-          <a href="#">Տան համար ▾</a>
+          <a href="/forHome">Տան համար ▾</a>
           <a href="#">Շարժական կապ ▾</a>
-          <a href="#">Ռոումինգ</a>
+          <a href="/roaming">Ռոումինգ</a>
           <a href="#">5G ցանց <span className="badge">նոր</span></a>
           <a href="#">Uplay <span className="badge">նոր</span></a>
         </nav>
