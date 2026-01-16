@@ -7,6 +7,7 @@ import InfoCard from './components/infocard'
 import MobileIdBanner from './components/mobileidbanner'
 import UcomLogin from './components/ucomlogin'
 import ServiceCards from './components/servisecard'
+import NewsSection from './components/newssection'
 import './App.css'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <MobileIdBanner/>
       <UcomLogin/>
       <ServiceCards/>
+      <NewsSection/>
     </>
   )
 }
