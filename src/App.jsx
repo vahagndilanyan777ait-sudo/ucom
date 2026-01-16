@@ -4,6 +4,7 @@ import Section1 from './components/section1'
 import Patet from './components/patet'
 import Beewhithucom from './components/beewhithucom'
 import InfoCard from './components/infocard'
+import MobileIdBanner from './components/mobileidbanner'
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Patet />
       <Beewhithucom />
       <InfoCard/>
+      <MobileIdBanner/>
     </>
   )
 }

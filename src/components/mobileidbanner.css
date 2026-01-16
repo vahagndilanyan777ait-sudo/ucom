@@ -1,0 +1,46 @@
+.mobile-id {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  padding: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mobile-id__image img {
+  width: 520px;
+  border-radius: 20px;
+}
+
+.mobile-id__content {
+  max-width: 420px;
+}
+
+.mobile-id__content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.mobile-id__content p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.mobile-id__btn {
+  background: #7cff00;
+  color: #000;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.mobile-id__btn:hover {
+  background: #6ae000;
+}
+
