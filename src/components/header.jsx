@@ -23,7 +23,7 @@ export default function Header() {
 
         <nav className="nav">
           <a href="/forHome">Տան համար ▾</a>
-          <a href="#">Շարժական կապ ▾</a>
+          <a href="/sharjkap">Շարժական կապ ▾</a>
           <a href="/roaming">Ռոումինգ</a>
           <a href="#">5G ցանց <span className="badge">նոր</span></a>
           <a href="#">Uplay <span className="badge">նոր</span></a>
