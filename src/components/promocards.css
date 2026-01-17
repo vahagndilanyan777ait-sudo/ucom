@@ -1,0 +1,72 @@
+.promo-wrapper {
+  display: flex;
+  gap: 24px;
+  padding: 40px;
+  background: #f6f7f7;
+}
+
+.promo-card {
+  flex: 1;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Տեքստ */
+.promo-text {
+  max-width: 55%;
+}
+
+.promo-text h2 {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.promo-text p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.promo-text button {
+  background: transparent;
+  border: 2px solid #7bc400;
+  color: #000;
+  padding: 12px 26px;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.promo-text button:hover {
+  background: #7bc400;
+  color: #fff;
+}
+
+/* Նկար */
+.promo-image img {
+  max-width: 260px;
+}
+
+/* 📱 Mobile */
+@media (max-width: 900px) {
+  .promo-wrapper {
+    flex-direction: column;
+  }
+
+  .promo-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .promo-text {
+    max-width: 100%;
+  }
+
+  .promo-image img {
+    margin-top: 20px;
+  }
+}
