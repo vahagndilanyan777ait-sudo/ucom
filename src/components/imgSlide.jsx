@@ -4,7 +4,6 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import './imgSlide.css'
 
 const images = [
   "https://www.ucom.am/storage/files/levelup-india-russia.png-2720x_-quality(75)-webp(80)-o(png).webp?token=624e9282626d227efcc208b3ba9bfa9c",
@@ -21,12 +20,16 @@ export default function ImageSlider() {
       navigation
       pagination={{ clickable: true }}
       autoplay={{ delay: 3000 }}
-      loop={true}
-      className="mySwiper"
+      loop
+      className="w-[95%] h-[500px] rounded-[50px] mt-5"
     >
       {images.map((img, index) => (
         <SwiperSlide key={index}>
-          <img src={img} alt={`slide-${index}`} />
+          <img
+            src={img}
+            alt={`slide-${index}`}
+            className="w-full h-full object-cover"
+          />
         </SwiperSlide>
       ))}
     </Swiper>
