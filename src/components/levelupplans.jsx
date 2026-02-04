@@ -26,28 +26,32 @@ const plans = [
 
 export default function LevelUpPlans() {
   return (
-    <div className="grid gap-5 grid-cols-[repeat(auto-fit,minmax(250px,1fr))]">
+    <div className="grid gap-4 sm:gap-5 md:gap-6 grid-cols-[repeat(auto-fit,minmax(200px,1fr))]">
       {plans.map((plan, i) => (
         <div
           key={i}
-          className={`rounded-2xl bg-white p-5 text-center shadow-md transition
-            ${plan.highlight ? "scale-105 ring-2 ring-[#7ad000]" : ""}`}
+          className={`rounded-2xl bg-white p-4 sm:p-5 md:p-6 text-center shadow-md transition
+            ${plan.highlight ? "scale-100 sm:scale-105 ring-2 ring-[#7ad000]" : ""}`}
         >
-          <h3 className="mb-4 rounded-xl bg-[#7ad000] py-3 text-white font-semibold">
+          {/* Plan Title */}
+          <h3 className="mb-3 sm:mb-4 rounded-xl bg-[#7ad000] py-2 sm:py-3 text-sm sm:text-base md:text-lg text-white font-semibold">
             {plan.title}
           </h3>
 
-          <ul className="space-y-2 text-sm text-gray-700">
+          {/* Plan Items */}
+          <ul className="space-y-1 sm:space-y-2 text-xs sm:text-sm md:text-base text-gray-700">
             {plan.items.map((item, idx) => (
               <li key={idx}>{item}</li>
             ))}
           </ul>
 
-          <div className="my-5 text-[28px] font-bold">
+          {/* Price */}
+          <div className="my-3 sm:my-5 text-[22px] sm:text-[26px] md:text-[28px] font-bold">
             {plan.price}
           </div>
 
-          <button className="rounded-lg bg-[#7ad000] px-5 py-3 text-white transition hover:opacity-90">
+          {/* Join Button */}
+          <button className="rounded-lg bg-[#7ad000] px-4 sm:px-5 md:px-6 py-2 sm:py-3 text-sm sm:text-base md:text-[16px] text-white transition hover:opacity-90">
             Միանալ
           </button>
         </div>
