@@ -1,32 +1,35 @@
-export const plansdata = [
-  {
-    id: 1,
-    title: "uNet 7000",
-    speed: "150 Մբ/վ տնային ինտերնետ",
-    wifi: "Wi-Fi սարք",
-    tech: "FTTH տեխնոլոգիա",
-    price: "7 000 ֏",
-    period: "ամսական",
-  },
-  {
-    id: 2,
-    title: "uNet 9500",
-    speed: "250 Մբ/վ տնային ինտերնետ",
-    wifi: "Super Wi-Fi սարք",
-    tech: "FTTH տեխնոլոգիա",
-    price: "9 500 ֏",
-    period: "ամսական",
-  },
-  {
-    id: 3,
-    title: "uNet 5000 մատչելի",
-    speed: "100 Մբ/վ տնային ինտերնետ",
-    wifi: "Wi-Fi սարք",
-    tech: "FTTH տեխնոլոգիա",
-    price: "5 000 ֏",
-    period: "ամսական",
-  },
-];
+import { db } from "../lib/db";
+
+// export const plansdata = [
+//   {
+//     id: 1,
+//     title: "uNet 7000",
+//     speed: "150 Մբ/վ տնային ինտերնետ",
+//     wifi: "Wi-Fi սարք",
+//     tech: "FTTH տեխնոլոգիա",
+//     price: "7 000 ֏",
+//     period: "ամսական",
+//   },
+//   {
+//     id: 2,
+//     title: "uNet 9500",
+//     speed: "250 Մբ/վ տնային ինտերնետ",
+//     wifi: "Super Wi-Fi սարք",
+//     tech: "FTTH տեխնոլոգիա",
+//     price: "9 500 ֏",
+//     period: "ամսական",
+//   },
+//   {
+//     id: 3,
+//     title: "uNet 5000 մատչելի",
+//     speed: "100 Մբ/վ տնային ինտերնետ",
+//     wifi: "Wi-Fi սարք",
+//     tech: "FTTH տեխնոլոգիա",
+//     price: "5 000 ֏",
+//     period: "ամսական",
+//   },
+// ];
+const plansdata = db.plansdata
 
 export default function InternetPlans() {
   return (
