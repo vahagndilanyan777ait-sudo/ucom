@@ -38,10 +38,14 @@ export default function Patet() {
   ];
 
   return (
-    <div className="mt-[100px] flex w-full flex-col justify-center gap-5 p-[100px]">
-      <h1 className="text-3xl font-bold">Լավագույն առաջարկ</h1>
+    <div className="mt-20 flex flex-col items-center justify-center gap-6 px-4 sm:px-6 md:px-10 lg:px-24">
+      {/* Heading */}
+      <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center">
+        Լավագույն առաջարկ
+      </h1>
 
-      <div className="flex w-full gap-5">
+      {/* Cards */}
+      <div className="flex flex-col sm:flex-row flex-wrap gap-4 sm:gap-5 w-full justify-center">
         {db.map((el, i) => (
           <PatetCard key={i} {...el} />
         ))}
@@ -49,5 +53,3 @@ export default function Patet() {
     </div>
   );
 }
-
-
