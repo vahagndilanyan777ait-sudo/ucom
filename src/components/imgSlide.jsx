@@ -21,14 +21,15 @@ export default function ImageSlider() {
       pagination={{ clickable: true }}
       autoplay={{ delay: 3000 }}
       loop
-      className="w-[95%] h-[500px] rounded-[50px] mt-5"
+      className="w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] mx-auto rounded-[30px] sm:rounded-[40px] lg:rounded-[50px] mt-5
+                 h-[250px] sm:h-[350px] md:h-[450px] lg:h-[500px]"
     >
       {images.map((img, index) => (
         <SwiperSlide key={index}>
           <img
             src={img}
             alt={`slide-${index}`}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover rounded-[30px] sm:rounded-[40px] lg:rounded-[50px]"
           />
         </SwiperSlide>
       ))}
