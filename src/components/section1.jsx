@@ -9,13 +9,13 @@ export default function Section1() {
   ];
 
   return (
-    <div className="mt-[50px] flex w-full items-center justify-center gap-5">
+    <div className="mt-12 flex flex-col sm:flex-row flex-wrap justify-center gap-4 sm:gap-5">
       {imgs.map((el, i) => (
         <img
           key={i}
           src={el}
           alt="promo"
-          className="h-[460px] w-[323px] rounded-[20px] border border-[#ebebeb] object-cover"
+          className="w-full sm:w-[45%] md:w-[323px] h-auto max-h-[460px] rounded-[16px] sm:rounded-[20px] border border-[#ebebeb] object-cover"
         />
       ))}
     </div>
